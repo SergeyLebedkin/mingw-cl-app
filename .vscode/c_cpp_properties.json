@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "winmake",
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "includePath": ["./deps/OpenCL-Headers"],
+            "defines": ["CL_TARGET_OPENCL_VERSION=200"],
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
